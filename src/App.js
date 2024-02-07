@@ -72,7 +72,7 @@ function App() {
           </div>
           <div>
             <label >Message : </label>
-            <input type="textbox" name="message" value={state.message} autoComplete="off" placeholder='Enter Message' onChange={getUserData} />
+            <input id='textarea' type="textbox" name="message" value={state.message} autoComplete="off" placeholder='Enter Your Message...' onChange={getUserData} />
           </div>
           <br />
           <button onClick={(event) => funcSubmit(event)}>Submit</button>
